@@ -130,4 +130,14 @@ public class Pilha {
         }
         return true;
     }
+    public boolean procurar(int elemento){
+        while(topo!=-1){
+            if(top() == elemento)
+                return true;
+            topo--;
+        }
+        return false;
+    }
+
+
 }
